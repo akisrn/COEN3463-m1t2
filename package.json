@@ -9,7 +9,7 @@
   "devDependencies": {},
    "scripts" : {
         "start": "node app.js"
-    }
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/akisrn/COEN3463-m1t2.git"
