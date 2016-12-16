@@ -1,0 +1,91 @@
+@font-face {
+	 font-family: "LearningCurve";
+	 src: url("Fonts/LearningCurve.otf");
+}
+
+@font-face {
+	font-family: "Ostrich";
+	src: url("Fonts/Ostrich.otf");
+}
+
+@font-face {
+	font-family: "ColabThi";
+	src: url("Fonts/ColabThi.otf");
+}
+
+body {
+	background: url("Images/photoedit.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom center;
+	font-family: "Ostrich";
+	width: auto;
+	height: auto;
+} 
+
+table {
+	width: 70%;
+}
+
+img {
+	float: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+a {
+    color: #000;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-family: "Ostrich";
+    font-size: 30px;
+}
+
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+h1 {
+	color:#006633;
+	font-family: "LearningCurve";
+	font-size: 60px;
+	margin: 20px;
+}
+
+h2  {
+	color:#006633;
+	font-family: "Ostrich";
+	font-size: 30px;
+	margin: 0px;
+}
+
+h3  {
+	color:#000000;
+	font-family: "ColabThi";
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0px;
+}
+a {
+	color:#006633;
+}
+
+td {
+	font-family: "ColabThi";
+	font-size: 25px;
+}
