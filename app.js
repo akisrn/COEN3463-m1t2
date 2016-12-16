@@ -1,11 +1,14 @@
-	var express = require('express');
-  var app = express();
+var express = require('express');
+var path = require('path');
+var app = express();
 
-  var port = Number(process.env.PORT || 3000);
+// Define the port to run on
+app.set('port', 3000);
 
-  app.listen(port, function()
-   {
-    console.log('Listening on ' + port);
-   });
+app.use(express.static(path.join(__dirname, '/Public')));
 
-  app.use(express.static(__dirname  + '/Public'));
+// Listen for requests
+var server = app.listen(app.get('port'), function() {
+  var port = server.address().port;
+  console.log('Magic happens on port ' + port);
+});
