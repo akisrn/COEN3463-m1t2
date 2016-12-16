@@ -8,4 +8,4 @@
     console.log('Listening on ' + port);
    });
 
-  app.use(express.static(__dirname  + 'Public'));
+  app.use(express.static(__dirname  + '/Public'));
